@@ -5,7 +5,7 @@ const app = express();
 
 app.get("/", (req : Request, res : Response, ) => {
     res.status(200).json({
-        message : "welcome to our management system..."
+        message : "welcome to our parcel delivery management system..."
     })
 })
 
